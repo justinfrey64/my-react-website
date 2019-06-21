@@ -11,7 +11,7 @@ class Navbar extends Component {
           <nav>
           <div class="nav-wrapper container">
             <NavLink exact to="/">Justin Frey</NavLink>
-            <a class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
               <li><NavLink exact to="/">Home</NavLink></li>
               <li><NavLink to="/about-me">About Me</NavLink></li>
