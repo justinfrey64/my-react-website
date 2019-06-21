@@ -23,7 +23,7 @@ class Navbar extends Component {
           </div>
         </nav>
 
-        <ul class="sidenav" id="mobile-demo">
+        <ul class="sidenav" ref={ (sidenav) => {this.sidenav = sidenav} } id="mobile-demo">
           <li><NavLink exact to="/">Home</NavLink></li>
           <li><NavLink to="/about-me">About Me</NavLink></li>
           <li><NavLink to="/services">Services</NavLink></li>
@@ -35,7 +35,7 @@ class Navbar extends Component {
     );
   }
   componentDidMount() {
-    M.AutoInit();
+    M.Sidenav.init(this.sidenav);
   }
 }
 
