@@ -20,17 +20,16 @@ class Navbar extends Component {
               <li><NavLink to="/portfolio">Portfolio</NavLink></li>
               <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
+            <ul class="sidenav" ref={ (sidenav) => {this.sidenav = sidenav} } id="mobile-menu">
+              <li><NavLink exact to="/">Home</NavLink></li>
+              <li><NavLink to="/about-me">About Me</NavLink></li>
+              <li><NavLink to="/services">Services</NavLink></li>
+              <li><NavLink to="/timeline">Timeline</NavLink></li>
+              <li><NavLink to="/portfolio">Portfolio</NavLink></li>
+              <li><NavLink to="/contact">Contact</NavLink></li>
+            </ul>
           </div>
         </nav>
-
-        <ul class="sidenav sidenav-trigger" ref={ (sidenav) => {this.sidenav = sidenav} } id="mobile-menu">
-          <li><NavLink exact to="/">Home</NavLink></li>
-          <li><NavLink to="/about-me">About Me</NavLink></li>
-          <li><NavLink to="/services">Services</NavLink></li>
-          <li><NavLink to="/timeline">Timeline</NavLink></li>
-          <li><NavLink to="/portfolio">Portfolio</NavLink></li>
-          <li><NavLink to="/contact">Contact</NavLink></li>
-        </ul>
       </header>
     );
   }
