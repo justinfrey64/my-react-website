@@ -12,7 +12,6 @@
 
 .main-content{
   flex: 1 0 auto;
-  margin-top:.5rem !important;
 }
 
 .hidden{
@@ -23,4 +22,12 @@
   user-select: none;
   cursor: pointer;
   touch-action: manipulation;
+}
+
+.content-margin-top{
+  margin-top: 0.5rem !important;
+}
+
+.sidenav-trigger{
+  margin-left: 0px !important;
 }

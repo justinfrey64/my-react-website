@@ -4,7 +4,7 @@ import Typed from "react-typed"
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div class="container">
         <h1 class="intro-title mb-4">I am Justin Frey</h1>
         <Typed 
           strings={[

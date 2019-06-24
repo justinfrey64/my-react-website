@@ -12,7 +12,7 @@ import Portfolio from "./portfolio/Portfolio";
 class MainContent extends Component {
   render() {
     return (
-        <div className="main-content container">
+        <div className="main-content">
             <Route exact path="/" component={Home}/>
             <Route path="/about-me" component={AboutMe}/>
             <Route path="/services" component={Services}/>
