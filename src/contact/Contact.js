@@ -9,7 +9,7 @@ class Contact extends Component {
         <div class="col s12">
           <div class="contact-mf">
             <div id="contact" class="box-shadow-full">
-              <div class="row">
+              <div class="row z-depth-3">
                 <SendMessage></SendMessage>
                 <ContactInfo></ContactInfo>
               </div>

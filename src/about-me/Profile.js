@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import profilePic from  "../assets/images/old-headshot.png";
 
 class Profile extends Component {
   render() {
@@ -7,7 +10,7 @@ class Profile extends Component {
                 <div class="row">
                   <div class="col s6 m5">
                     <div class="about-img">
-                      <img src="#" class="img-fluid rounded b-shadow-a" alt=""/>
+                      <img src={profilePic} class="circle responsive-img" alt="My old headshot"/>
                     </div>
                   </div>
                   <div class="col s6 m7">
@@ -24,7 +27,7 @@ class Profile extends Component {
                   <div class="row">
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><i class="fab fa-html5"></i></span>
+                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'html5']}/></span>
                       </div>
                       <div class="service-content">
                         <label>HTML</label>
@@ -32,7 +35,7 @@ class Profile extends Component {
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><i class="fab fa-css3-alt"></i></span>
+                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'css3']}/></span>
                       </div>
                       <div class="service-content">
                         <label>CSS</label>
@@ -40,7 +43,7 @@ class Profile extends Component {
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><i class="fab fa-js"></i></span>
+                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'js']}/></span>
                       </div>
                       <div class="service-content">
                         <label>Javascript</label>
@@ -48,7 +51,7 @@ class Profile extends Component {
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><i class="fab fa-java"></i></span>
+                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'java']}/></span>
                       </div>
                       <div class="service-content">
                         <label>JAVA</label>
@@ -56,10 +59,42 @@ class Profile extends Component {
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><i class="fas fa-database"></i></span>
+                        <span class="ico-circle"><FontAwesomeIcon icon={['fas', 'database']}/></span>
                       </div>
                       <div class="service-content">
                         <label>SQL</label>
+                      </div>
+                    </div>
+                    <div class="col s3 m4 l2 skill-box">
+                      <div class="skill-ico">
+                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'react']}/></span>
+                      </div>
+                      <div class="service-content">
+                        <label>React</label>
+                      </div>
+                    </div>
+                    <div class="col s3 m4 l2 skill-box">
+                      <div class="skill-ico">
+                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'angular']}/></span>
+                      </div>
+                      <div class="service-content">
+                        <label>Angular</label>
+                      </div>
+                    </div>
+                    <div class="col s3 m4 l2 skill-box">
+                      <div class="skill-ico">
+                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'git-alt']}/></span>
+                      </div>
+                      <div class="service-content">
+                        <label>Git</label>
+                      </div>
+                    </div>
+                    <div class="col s3 m4 l2 skill-box">
+                      <div class="skill-ico">
+                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'npm']}/></span>
+                      </div>
+                      <div class="service-content">
+                        <label>npm</label>
                       </div>
                     </div>
                   </div>
@@ -69,7 +104,6 @@ class Profile extends Component {
                   <div class="row">
                     <div class="col s6 skill-box">
                       <div>PHP</div>
-                      <div>Git</div>
                       <div>Python</div>
                       <div>C++</div>
                     </div>

@@ -8,7 +8,7 @@ class AboutMe extends Component {
         <div class="row">
             <div class="col s12">
                 <div class="box-shadow-full">
-                    <div class="row">
+                    <div class="row z-depth-3">
                         <Profile></Profile>
                         <Bio></Bio>
                     </div>

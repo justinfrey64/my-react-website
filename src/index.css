@@ -12,8 +12,15 @@
 
 .main-content{
   flex: 1 0 auto;
+  margin-top:.5rem !important;
 }
 
 .hidden{
   display:none;
+}
+
+.clickable{
+  user-select: none;
+  cursor: pointer;
+  touch-action: manipulation;
 }

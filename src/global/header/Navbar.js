@@ -10,8 +10,8 @@ class Navbar extends Component {
       <header>
           <nav>
           <div class="nav-wrapper container">
-            <NavLink exact to="/">Justin Frey</NavLink>
-            <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
+            <NavLink className="brand-logo" exact to="/">Justin Frey</NavLink>
+            <a class="sidenav-trigger clickable" data-target="mobile-menu"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
               <li><NavLink exact to="/">Home</NavLink></li>
               <li><NavLink to="/about-me">About Me</NavLink></li>
@@ -20,7 +20,7 @@ class Navbar extends Component {
               <li><NavLink to="/portfolio">Portfolio</NavLink></li>
               <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
-            <ul class="sidenav" ref={ (sidenav) => {this.sidenav = sidenav} } id="mobile-menu">
+            <ul class="sidenav sidenav-close" ref={ (sidenav) => {this.sidenav = sidenav} } id="mobile-menu">
               <li><NavLink exact to="/">Home</NavLink></li>
               <li><NavLink to="/about-me">About Me</NavLink></li>
               <li><NavLink to="/services">Services</NavLink></li>
