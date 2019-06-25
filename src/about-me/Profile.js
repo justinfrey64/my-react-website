@@ -27,47 +27,47 @@ class Profile extends Component {
                   <div class="row">
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle tooltipped clickable" data-position="bottom" data-tooltip="HTML"><FontAwesomeIcon icon={['fab', 'html5']}/></span>
+                        <span class="ico-circle tooltipped clickable" data-delay="150" data-position="bottom" data-tooltip="HTML"><FontAwesomeIcon icon={['fab', 'html5']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle tooltipped clickable" data-position="bottom" data-tooltip="CSS"><FontAwesomeIcon icon={['fab', 'css3']}/></span>
+                        <span class="ico-circle tooltipped clickable" data-delay="150" data-position="bottom" data-tooltip="CSS"><FontAwesomeIcon icon={['fab', 'css3']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle tooltipped clickable" data-position="bottom" data-tooltip="Javascript"><FontAwesomeIcon icon={['fab', 'js']}/></span>
+                        <span class="ico-circle tooltipped clickable" data-delay="150" data-position="bottom" data-tooltip="Javascript"><FontAwesomeIcon icon={['fab', 'js']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle tooltipped clickable" data-position="bottom" data-tooltip="Java"><FontAwesomeIcon icon={['fab', 'java']}/></span>
+                        <span class="ico-circle tooltipped clickable" data-delay="150" data-position="bottom" data-tooltip="Java"><FontAwesomeIcon icon={['fab', 'java']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle tooltipped clickable" data-position="bottom" data-tooltip="SQL"><FontAwesomeIcon icon={['fas', 'database']}/></span>
+                        <span class="ico-circle tooltipped clickable" data-delay="150" data-position="bottom" data-tooltip="SQL"><FontAwesomeIcon icon={['fas', 'database']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle tooltipped clickable" data-position="bottom" data-tooltip="React"><FontAwesomeIcon icon={['fab', 'react']}/></span>
+                        <span class="ico-circle tooltipped clickable" data-delay="150" data-position="bottom" data-tooltip="React"><FontAwesomeIcon icon={['fab', 'react']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle tooltipped clickable" data-position="bottom" data-tooltip="Angular"><FontAwesomeIcon icon={['fab', 'angular']}/></span>
+                        <span class="ico-circle tooltipped clickable" data-delay="150" data-position="bottom" data-tooltip="Angular"><FontAwesomeIcon icon={['fab', 'angular']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle tooltipped clickable" data-position="bottom" data-tooltip="Git"><FontAwesomeIcon icon={['fab', 'git-alt']}/></span>
+                        <span class="ico-circle tooltipped clickable" data-delay="150" data-position="bottom" data-tooltip="Git"><FontAwesomeIcon icon={['fab', 'git-alt']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle tooltipped clickable" data-position="bottom" data-tooltip="npm"><FontAwesomeIcon icon={['fab', 'npm']}/></span>
+                        <span class="ico-circle tooltipped clickable" data-delay="150" data-position="bottom" data-tooltip="npm"><FontAwesomeIcon icon={['fab', 'npm']}/></span>
                       </div>
                     </div>
                   </div>
