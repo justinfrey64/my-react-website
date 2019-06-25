@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Portfolio.css";
+import M from "materialize-css";
 
 import ResumeCard from "./cards/ResumeCard";
 import MyWebsiteCard from "./cards/MyWebsiteCard";
@@ -18,6 +19,10 @@ class PortFolio extends Component {
           
     );
   }
+  componentDidMount(){
+    M.AutoInit();
+  }
 }
+
 
 export default PortFolio;

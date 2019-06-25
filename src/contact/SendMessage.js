@@ -10,7 +10,7 @@ class Contact extends Component {
             </h5>
             </div>
             <div>
-                <form action="https://formspree.io/justin.r.frey@outlook.com" method="POST" role="form" class="contactForm">
+                <form action="https://formspree.io/justin.r.frey@outlook.com" method="POST"  class="contactForm">
                 <input type="text" name="_gotcha" class="hidden"/>
                 <div id="sendmessage" class="hidden">Your message has been sent. Thank you!</div>
                 <div id="errormessage"></div>

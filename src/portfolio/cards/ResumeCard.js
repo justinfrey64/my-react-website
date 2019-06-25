@@ -11,7 +11,7 @@ class ResumeCard extends Component {
         <div class="col s12 m6 l4">
           <div class="card large z-depth-5">
             <div class="card-image">
-              <img src={resumePic} class="responsive-img" alt="My résumé"/>
+              <img src={resumePic} class="responsive-img materialboxed" data-caption="My résumé"alt="My résumé"/>
               <span class="card-title white black-text">Résumé</span>
               
             </div>
@@ -26,5 +26,6 @@ class ResumeCard extends Component {
       );
     }
   }
+  
   
   export default ResumeCard;

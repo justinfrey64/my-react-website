@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import profilePic from  "../assets/images/old-headshot.png";
 
@@ -8,12 +8,12 @@ class Profile extends Component {
     return (
         <div class="col m6 s12">
                 <div class="row">
-                  <div class="col s6 m5">
+                  <div class="col s12 l6">
                     <div class="about-img">
                       <img src={profilePic} class="circle responsive-img" alt="My old headshot"/>
                     </div>
                   </div>
-                  <div class="col s6 m7">
+                  <div class="col s12 l6">
                     <div class="about-info">
                       <p><span class="title-s">Name: </span> <span>Justin Frey</span></p>
                       <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
@@ -27,74 +27,47 @@ class Profile extends Component {
                   <div class="row">
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'html5']}/></span>
-                      </div>
-                      <div class="service-content">
-                        <label>HTML</label>
+                        <span class="ico-circle tooltipped" data-position="bottom" data-tooltip="HTML"><FontAwesomeIcon icon={['fab', 'html5']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'css3']}/></span>
-                      </div>
-                      <div class="service-content">
-                        <label>CSS</label>
+                        <span class="ico-circle tooltipped" data-position="bottom" data-tooltip="CSS"><FontAwesomeIcon icon={['fab', 'css3']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'js']}/></span>
-                      </div>
-                      <div class="service-content">
-                        <label>Javascript</label>
+                        <span class="ico-circle tooltipped" data-position="bottom" data-tooltip="Javascript"><FontAwesomeIcon icon={['fab', 'js']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'java']}/></span>
-                      </div>
-                      <div class="service-content">
-                        <label>JAVA</label>
+                        <span class="ico-circle tooltipped" data-position="bottom" data-tooltip="Java"><FontAwesomeIcon icon={['fab', 'java']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><FontAwesomeIcon icon={['fas', 'database']}/></span>
-                      </div>
-                      <div class="service-content">
-                        <label>SQL</label>
+                        <span class="ico-circle tooltipped" data-position="bottom" data-tooltip="SQL"><FontAwesomeIcon icon={['fas', 'database']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'react']}/></span>
-                      </div>
-                      <div class="service-content">
-                        <label>React</label>
+                        <span class="ico-circle tooltipped" data-position="bottom" data-tooltip="React"><FontAwesomeIcon icon={['fab', 'react']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'angular']}/></span>
-                      </div>
-                      <div class="service-content">
-                        <label>Angular</label>
+                        <span class="ico-circle tooltipped" data-position="bottom" data-tooltip="Angular"><FontAwesomeIcon icon={['fab', 'angular']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'git-alt']}/></span>
-                      </div>
-                      <div class="service-content">
-                        <label>Git</label>
+                        <span class="ico-circle tooltipped" data-position="bottom" data-tooltip="Git"><FontAwesomeIcon icon={['fab', 'git-alt']}/></span>
                       </div>
                     </div>
                     <div class="col s3 m4 l2 skill-box">
                       <div class="skill-ico">
-                        <span class="ico-circle"><FontAwesomeIcon icon={['fab', 'npm']}/></span>
-                      </div>
-                      <div class="service-content">
-                        <label>npm</label>
+                        <span class="ico-circle tooltipped" data-position="bottom" data-tooltip="npm"><FontAwesomeIcon icon={['fab', 'npm']}/></span>
                       </div>
                     </div>
                   </div>

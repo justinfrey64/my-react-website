@@ -31,3 +31,14 @@
 .sidenav-trigger{
   margin-left: 0px !important;
 }
+
+.is-active{
+  background-color: #D66367;
+  border-bottom: 2px solid lightgrey;
+}
+
+.is-active-mobile{
+  background-color: #F2F2F2;
+  text-decoration: underline;
+}
+

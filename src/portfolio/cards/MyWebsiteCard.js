@@ -10,7 +10,7 @@ class MyWebsiteCard extends Component {
         <div class="col s12 m6 l4">
           <div class="card large z-depth-5">
             <div class="card-image">
-              <img src={myWebsitePic} class="responsive-img" alt="My website"/>
+              <img src={myWebsitePic} class="responsive-img materialboxed" data-caption="My website" alt="My website"/>
               <span class="card-title white black-text">My Webiste</span>
             </div>
             <div class="card-content">

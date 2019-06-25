@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Bio from "./Bio";
 import Profile from "./Profile";
+import "./AboutMe.css";
+import M from "materialize-css";
 
 class AboutMe extends Component {
   render() {
@@ -12,6 +14,9 @@ class AboutMe extends Component {
             </div>
         </div>
     );
+  }
+  componentDidMount(){
+    M.AutoInit();
   }
 }
 

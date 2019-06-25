@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import SendMessage from "./SendMessage";
 import ContactInfo from "./ContactInfo"
+import "./Contact.css"
  
 class Contact extends Component {
   render() {
