@@ -14,7 +14,7 @@ class MainContent extends Component {
   render() {
     return (
         <div className="main-content">
-          <Suspense fallback={<div>{loader}</div>}>
+          <Suspense fallback={<div class="loader">{loader}</div>}>
             <Route exact path="/" component={Home}/>
             <Route path="/about-me" component={AboutMe}/>
             <Route path="/services" component={Services}/>

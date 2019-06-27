@@ -1,6 +1,6 @@
 {
   "name": "my-react-website",
-  "homepage":"https://justinfrey64.github.io/my-react-website",
+  "homepage": "https://justinfrey64.github.io/my-react-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
