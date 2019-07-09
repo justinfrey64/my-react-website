@@ -1,29 +1,40 @@
 import React, { Component, Suspense } from "react";
-import {
-    Route
-} from "react-router-dom";
-
-const Home = React.lazy(() => import("./home/Home"));
-const Contact = React.lazy(() => import("./contact/Contact"));
-const AboutMe = React.lazy(() => import("./about-me/AboutMe"));
-const Services = React.lazy(() => import("./services/Services"));
-const Timeline = React.lazy(() => import("./timeline/Timeline"));
-const Portfolio = React.lazy(() => import("./portfolio/Portfolio"));
+import { Route, Switch, withRouter} from "react-router-dom";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
+import Home from "./home/Home";
+import AboutMe from "./about-me/AboutMe";
+import Services from "./services/Services";
+import Timeline from "./timeline/Timeline";
+import Portfolio from "./portfolio/Portfolio";
+import Contact from "./contact/Contact";
+import $ from "jquery";
 
 class MainContent extends Component {
   render() {
     return (
-        <div className="main-content">
-          <Suspense fallback={<div class="loader">{loader}</div>}>
-            <Route exact path="/" component={Home}/>
-            <Route path="/about-me" component={AboutMe}/>
-            <Route path="/services" component={Services}/>
-            <Route path="/timeline" component={Timeline}/>
-            <Route path="/portfolio" component={Portfolio}/>
-            <Route path="/contact" component={Contact}/>
-          </Suspense>
-        </div>
+      <TransitionGroup component="div" className="main-content">
+        <CSSTransition key={this.props.location.pathname.split('/')[1] || '/'} timeout={{enter:300, exit:200}} classNames="fade" appear>
+          <div className="page-main-inner">
+          <Switch location={this.props.location}>
+            {/* <Suspense fallback={<div class="loader">{loader}</div>}> */}
+              <Route exact path="/" component={Home}/>
+              <Route path="/about-me" component={AboutMe}/>
+              <Route path="/services" component={Services}/>
+              <Route path="/timeline" component={Timeline}/>
+              <Route path="/portfolio" component={Portfolio}/>
+              <Route path="/contact" component={Contact}/>
+            {/* </Suspense> */}
+          </Switch>
+          </div>
+          </CSSTransition>
+          </TransitionGroup>
     );
+  }
+  componentDidUpdate(prevProps) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
+      var bodyheight = $(".page-main-inner").height();
+      $('.main-content').height(bodyheight);
+    }
   }
 }
 
@@ -41,4 +52,4 @@ const loader =
   </div>
 ;
 
-export default MainContent;
+export default withRouter(MainContent);

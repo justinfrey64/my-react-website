@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SendMessage from "./SendMessage";
 import ContactInfo from "./ContactInfo"
 import "./Contact.css"
+import $ from "jquery";
  
 class Contact extends Component {
   render() {
@@ -13,6 +14,10 @@ class Contact extends Component {
         </div>
       </div>
     );
+  }
+  componentDidMount(){
+    // var bodyheight = $(".page-main-inner").height();
+    // $('.main-content').height(bodyheight);
   }
 }
  

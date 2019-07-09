@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import $ from "jquery";
 
 class Services extends Component {
   render() {
@@ -9,6 +10,11 @@ class Services extends Component {
         </div>
       </div>
     );
+  }
+
+  componentDidMount(){
+    // var bodyheight = $(".page-main-inner").height();
+    // $('.main-content').height(bodyheight);
   }
 }
 

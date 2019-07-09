@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import profilePic from  "../assets/images/old-headshot.png";
+import M from "materialize-css";
 
 class Profile extends Component {
   render() {
@@ -89,6 +90,9 @@ class Profile extends Component {
                 </div>
 </div>
     );
+  }
+  componentDidMount(){
+    M.AutoInit();
   }
 }
 

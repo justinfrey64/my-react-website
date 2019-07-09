@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Typed from "react-typed"
+import $ from "jquery";
  
 class Home extends Component {
   render() {
@@ -18,6 +19,10 @@ class Home extends Component {
         </Typed>
       </div>
     );
+  }
+  componentDidMount(){
+    // var bodyheight = $(".page-main-inner").height();
+    // $('.main-content').height(bodyheight);
   }
 }
 

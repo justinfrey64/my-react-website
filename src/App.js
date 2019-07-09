@@ -1,9 +1,6 @@
 import React from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 
-import {
-  HashRouter
-} from "react-router-dom";
 import Navbar from "./global/header/Navbar";
 import MainContent from "./MainContent";
 import Footer from "./global/footer/Footer";
@@ -18,10 +15,8 @@ library.add(fab, fas, far);
 function App() {
   return (
     <div className="App">
-      <HashRouter>
-          <Navbar></Navbar>
-          <MainContent></MainContent>
-      </HashRouter>
+      <Navbar></Navbar>
+      <MainContent></MainContent>
       <Footer></Footer>
     </div>
   );
