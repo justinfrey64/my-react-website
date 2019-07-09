@@ -15,7 +15,7 @@ class MainContent extends Component {
       <TransitionGroup component="div" className="main-content">
         <CSSTransition key={this.props.location.pathname.split('/')[1] || '/'} timeout={{enter:300, exit:200}} classNames="fade" appear>
           <div className="page-main-inner">
-          <Switch location={this.props.location}>
+          <Switch location={"my-react-website" + this.props.location}>
             {/* <Suspense fallback={<div class="loader">{loader}</div>}> */}
               <Route exact path="/" component={Home}/>
               <Route path="/about-me" component={AboutMe}/>
