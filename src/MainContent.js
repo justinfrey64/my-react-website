@@ -13,7 +13,7 @@ class MainContent extends Component {
   render() {
     return (
       <TransitionGroup component="div" className="main-content">
-        <CSSTransition key={this.props.location.pathname.split('/')[2] || '/'} timeout={{enter:300, exit:200}} classNames="fade" appear>
+        <CSSTransition key={this.props.location.pathname.split('/')[1] || '/'} timeout={{enter:300, exit:200}} classNames="fade" appear>
           <div className="page-main-inner">
           <Switch location={this.props.location}>
             {/* <Suspense fallback={<div class="loader">{loader}</div>}> */}
