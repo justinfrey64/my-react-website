@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5dec20807c6b5baa427f6094b899b071",
+    "revision": "a7f5afacef51b80c0d4333bd2f8e9072",
     "url": "/my-react-website/index.html"
   },
   {
-    "revision": "9df48bb11a09a3fc3d7d",
+    "revision": "9f7ecf8b4bad70b8194e",
     "url": "/my-react-website/static/css/2.33627280.chunk.css"
   },
   {
-    "revision": "680620116d5bdd60b9fe",
-    "url": "/my-react-website/static/css/main.d19bb4ad.chunk.css"
+    "revision": "ed60a87f8bedf93cf8d4",
+    "url": "/my-react-website/static/css/main.9af0d6ef.chunk.css"
   },
   {
-    "revision": "9df48bb11a09a3fc3d7d",
-    "url": "/my-react-website/static/js/2.3cb26aa3.chunk.js"
+    "revision": "9f7ecf8b4bad70b8194e",
+    "url": "/my-react-website/static/js/2.ef6bb80a.chunk.js"
   },
   {
-    "revision": "680620116d5bdd60b9fe",
-    "url": "/my-react-website/static/js/main.cbd2aad4.chunk.js"
+    "revision": "ed60a87f8bedf93cf8d4",
+    "url": "/my-react-website/static/js/main.8976bf07.chunk.js"
   },
   {
     "revision": "ce57ee1a1c6bcfb44243",
     "url": "/my-react-website/static/js/runtime~main.2a58f402.js"
-  },
-  {
-    "revision": "da62e49f8e89edbb5a724be0327518a1",
-    "url": "/my-react-website/static/media/Resume - December 2016.da62e49f.pdf"
   },
   {
     "revision": "42342a7bbc4f46f88527ece461bca024",
@@ -38,5 +34,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "78356b75ae8cec9e1f480b0189cc66a7",
     "url": "/my-react-website/static/media/old-headshot.78356b75.png"
+  },
+  {
+    "revision": "ac7e6909fd9c8c55d2137adcc96812d7",
+    "url": "/my-react-website/static/media/resume-summer-2019.ac7e6909.pdf"
   }
 ]);
