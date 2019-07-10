@@ -1,4 +1,4 @@
-import React, { Component, Suspense } from "react";
+import React, { Component } from "react";
 import { Route, Switch, withRouter} from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Home from "./home/Home";
@@ -16,14 +16,12 @@ class MainContent extends Component {
         <CSSTransition key={this.props.location.pathname.split('/')[1] || '/'} timeout={{enter:300, exit:200}} classNames="fade" appear>
           <div className="page-main-inner">
           <Switch location={this.props.location}>
-            {/* <Suspense fallback={<div class="loader">{loader}</div>}> */}
               <Route exact path="/" component={Home}/>
               <Route path="/about-me" component={AboutMe}/>
               <Route path="/services" component={Services}/>
               <Route path="/timeline" component={Timeline}/>
               <Route path="/portfolio" component={Portfolio}/>
               <Route path="/contact" component={Contact}/>
-            {/* </Suspense> */}
           </Switch>
           </div>
           </CSSTransition>
@@ -37,19 +35,5 @@ class MainContent extends Component {
     }
   }
 }
-
-const loader = 
-  <div class="preloader-wrapper big active">
-    <div class="spinner-layer spinner-blue-only">
-      <div class="circle-clipper left">
-        <div class="circle"></div>
-      </div><div class="gap-patch">
-        <div class="circle"></div>
-      </div><div class="circle-clipper right">
-        <div class="circle"></div>
-      </div>
-    </div>
-  </div>
-;
 
 export default withRouter(MainContent);

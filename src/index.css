@@ -24,10 +24,6 @@
   touch-action: manipulation;
 }
 
-/* .content-margin-top{
-  margin-top: 0.5rem !important;
-} */
-
 .sidenav-trigger{
   margin-left: 0px !important;
 }
@@ -56,7 +52,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 80px;
     margin-bottom: 20px;
   }
 

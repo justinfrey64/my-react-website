@@ -5,7 +5,6 @@ import M from "materialize-css";
 import ResumeCard from "./cards/ResumeCard";
 import MyWebsiteCard from "./cards/MyWebsiteCard";
 import GithubCard from "./cards/GithubCard";
-import $ from "jquery";
 
 class PortFolio extends Component {
   render() {
@@ -22,8 +21,6 @@ class PortFolio extends Component {
   }
   componentDidMount(){
     M.AutoInit();
-    // var bodyheight = $(".page-main-inner").height();
-    // $('.main-content').height(bodyheight);
   }
 }
 

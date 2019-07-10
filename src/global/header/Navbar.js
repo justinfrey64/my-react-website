@@ -34,7 +34,7 @@ class Navbar extends Component {
     );
   }
   componentDidMount() {
-    M.Sidenav.init(this.sidenav);
+    M.Sidenav.init(this.sidenav,'draggable');
   }
 }
 

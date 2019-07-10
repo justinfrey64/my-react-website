@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "../Portfolio.css"
 
 import resumePic from "../../assets/images/killington.jpg";
-import resumeLink from "../../assets/files/Resume - December 2016.pdf";
+import resumeLink from "../../assets/files/resume-summer-2019.pdf";
 
 class ResumeCard extends Component {
     render() {
@@ -20,7 +20,7 @@ class ResumeCard extends Component {
             </div>
             <div class="card-action">
               <a href={resumeLink} class="btn-floating waves-effect waves-light red center-align"><FontAwesomeIcon icon={['fas', 'file-pdf']}/></a>
-              <label class="right card-label">Last Updated: 1/1/2019</label></div>
+              <label class="right card-label">Last Updated: 7/5/2019</label></div>
           </div>
         </div>
       );
