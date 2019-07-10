@@ -3,5 +3,5 @@
 }
 
 .services-container .card{
-    height: 345px;
+    min-height: 345px;
 }
