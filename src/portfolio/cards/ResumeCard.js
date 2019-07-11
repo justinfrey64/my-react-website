@@ -19,7 +19,7 @@ class ResumeCard extends Component {
               <p>This is my current resume. Feel free to download/print it.</p>
             </div>
             <div class="card-action">
-              <a href={resumeLink} class="btn-floating waves-effect waves-light red center-align"><FontAwesomeIcon icon={['fas', 'file-pdf']}/></a>
+              <a href={resumeLink} class="btn-floating waves-effect waves-light center-align resume-btn"><FontAwesomeIcon icon={['fas', 'file-pdf']}/></a>
               <label class="right card-label">Last Updated: 7/5/2019</label></div>
           </div>
         </div>

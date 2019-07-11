@@ -40,7 +40,7 @@ class Contact extends Component {
                         </div>
                     </div>
                     <div class="col m12">
-                        <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        <button type="submit" class="btn send-msg-btn">Send Message</button>
                     </div>
                 </div>
             </form>

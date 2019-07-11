@@ -7,7 +7,7 @@ class Contact extends Component {
   render() {
     return (
       <div class="container content-margin-top">
-        <div class="row z-depth-3">
+        <div class="row z-depth-3 white">
           <SendMessage></SendMessage>
           <ContactInfo></ContactInfo>
         </div>

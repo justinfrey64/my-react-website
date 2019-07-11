@@ -29,12 +29,12 @@
 }
 
 .is-active{
-  background-color: #D66367;
+  background-color: #ec7f37;
   border-bottom: 2px solid lightgrey;
 }
 
 .is-active-mobile{
-  background-color: #F2F2F2;
+  background-color: #ec7f37;
   text-decoration: underline;
 }
 
@@ -84,3 +84,30 @@
   .about-img{
     height:250px;
   }
+
+/*  website styles*/
+
+.App {
+  background-color: #e6dbc9 !important;
+}
+
+nav {
+  background-color: #2e3830 !important;
+}
+
+.page-footer{
+  background-color: #2e3830 !important;
+}
+
+.resume-btn{
+  background-color: #ec7f37 !important;
+}
+
+.sidenav{
+  background-color: #2e3830 !important;
+  
+}
+
+.sidenav li > a{
+  color: white !important; 
+}

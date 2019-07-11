@@ -5,3 +5,7 @@
 .services-container .card{
     min-height: 345px;
 }
+
+.card-icon{
+    color: #ec7f37;
+}

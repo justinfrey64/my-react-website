@@ -17,9 +17,9 @@ class ContactInfo extends Component {
                 I'll try and respond as quickly as possible.
             </p>
             <ul class="list-ico">
-                <li><FontAwesomeIcon icon={['fas', 'map-marker-alt']}/>READING,PA 19607</li>
-                <li><FontAwesomeIcon icon={['fas', 'phone-alt']}/><a href="tel:610-223-7935"> (610) 223-7935</a></li>
-                <li><FontAwesomeIcon icon={['fas', 'envelope']}/> justin.r.frey@outlook.com</li>
+                <li><FontAwesomeIcon icon={['fas', 'map-marker-alt']}/><span>READING,PA 19607</span></li>
+                <li><FontAwesomeIcon icon={['fas', 'phone-alt']}/><a href="tel:610-223-7935"><span>(610) 223-7935</span></a></li>
+                <li><FontAwesomeIcon icon={['fas', 'envelope']}/><span>justin.r.frey@outlook.com</span></li>
             </ul>
             </div>
             <div class="socials">

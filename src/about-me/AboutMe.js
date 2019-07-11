@@ -7,7 +7,7 @@ class AboutMe extends Component {
   render() {
     return (
         <div class="container content-margin-top">
-            <div class="row z-depth-3">
+            <div class="row z-depth-3 white">
                 <Profile></Profile>
                 <Bio></Bio>
             </div>
