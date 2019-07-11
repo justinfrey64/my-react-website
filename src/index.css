@@ -119,10 +119,14 @@ nav {
   /* height:100%; */
   overflow: hidden !important;
   background: url(assets/images/laptop-stickers.jpg)  #2e3830;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size:cover;
   background-size: cover;
   background-clip: content-box;
-  background-repeat: repeat-y;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .home-page{
