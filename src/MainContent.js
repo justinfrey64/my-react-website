@@ -8,6 +8,7 @@ import Timeline from "./timeline/Timeline";
 import Portfolio from "./portfolio/Portfolio";
 import Contact from "./contact/Contact";
 import $ from "jquery";
+import link from "./assets/images/laptop-stickers.jpg";
 
 class MainContent extends Component {
   render() {
@@ -25,6 +26,9 @@ class MainContent extends Component {
           </Switch>
           </div>
           </CSSTransition>
+          <div class="background-picture container">
+            {/* <img src={link} class="" alt="hi"/> */}
+          </div>
           </TransitionGroup>
     );
   }

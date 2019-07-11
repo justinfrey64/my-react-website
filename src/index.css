@@ -10,8 +10,10 @@
   flex-direction: column;
 }
 
-.main-content{
+.main-content {
   flex: 1 0 auto;
+  /* background-image: url(assets/images/inside-computer.jpeg);
+  background-size: 10%; */
 }
 
 .hidden{
@@ -78,7 +80,6 @@
 
   .page-footer{
     padding-top:0px !important;
-    margin-top: 20px;
   }
 
   .about-img{
@@ -110,4 +111,24 @@ nav {
 
 .sidenav li > a{
   color: white !important; 
+}
+
+.background-picture{
+  margin-top:-2px !important;
+  height: calc(100% + 2px) !important;
+  /* height:100%; */
+  overflow: hidden !important;
+  background: url(assets/images/laptop-stickers.jpg)  #2e3830;
+  background-size: auto;
+  background-clip: content-box;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+.home-page{
+  color: #2e3830;  
+}
+
+.home-page span, .home-page h1{
+  background-color: rgba(255, 255, 255, 0.5);
 }
