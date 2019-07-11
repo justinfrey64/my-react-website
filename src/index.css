@@ -127,6 +127,7 @@ nav {
   background-clip: content-box;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: scroll;
 }
 
 .home-page{
