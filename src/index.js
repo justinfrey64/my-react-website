@@ -6,7 +6,7 @@ import {BrowserRouter} from 'react-router-dom';
 import $ from "jquery";
 
 ReactDOM.render((
-    <BrowserRouter basename="/my-react-website">
+    <BrowserRouter basename="/">
         <App />
     </BrowserRouter>
     ), document.getElementById('root')
