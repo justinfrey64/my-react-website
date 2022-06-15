@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.55dd53c0.chunk.css",
-    "main.js": "/static/js/main.720a33e4.chunk.js",
-    "main.js.map": "/static/js/main.720a33e4.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.48cd8e12.chunk.css": "/static/css/2.48cd8e12.chunk.css",
-    "static/js/2.84278088.chunk.js": "/static/js/2.84278088.chunk.js",
-    "static/js/2.84278088.chunk.js.map": "/static/js/2.84278088.chunk.js.map",
+    "main.css": "/static/css/main.12f4ae3d.css",
+    "main.js": "/static/js/main.617aa490.js",
+    "static/media/laptop-stickers.jpg": "/static/media/laptop-stickers.c70e950a871ea48d0ae4.jpg",
+    "static/media/killington.jpg": "/static/media/killington.36cd76413064787fd90d.jpg",
+    "static/media/resume-summer-2019.pdf": "/static/media/resume-summer-2019.66d7095ff20e3bdc4967.pdf",
+    "static/media/old-headshot.png": "/static/media/old-headshot.ebbf6d927334b48a831a.png",
+    "static/media/inside-computer-square.jpg": "/static/media/inside-computer-square.531676642b56b24ecd25.jpg",
     "index.html": "/index.html",
-    "precache-manifest.cd89ae1008e2b5edf636c0c305afed19.js": "/precache-manifest.cd89ae1008e2b5edf636c0c305afed19.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.48cd8e12.chunk.css.map": "/static/css/2.48cd8e12.chunk.css.map",
-    "static/css/main.55dd53c0.chunk.css.map": "/static/css/main.55dd53c0.chunk.css.map",
-    "static/media/inside-computer-square.jpg": "/static/media/inside-computer-square.42342a7b.jpg",
-    "static/media/killington.jpg": "/static/media/killington.4c0c4630.jpg",
-    "static/media/laptop-stickers.jpg": "/static/media/laptop-stickers.f6a9dd5c.jpg",
-    "static/media/old-headshot.png": "/static/media/old-headshot.78356b75.png",
-    "static/media/resume-summer-2019.pdf": "/static/media/resume-summer-2019.ac7e6909.pdf"
-  }
+    "main.12f4ae3d.css.map": "/static/css/main.12f4ae3d.css.map",
+    "main.617aa490.js.map": "/static/js/main.617aa490.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12f4ae3d.css",
+    "static/js/main.617aa490.js"
+  ]
 }
