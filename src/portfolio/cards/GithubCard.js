@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "../Portfolio.css"
 
-import myWebsitePic from "../../assets/images/inside-computer-square.jpg";
+import githubPic from "../../assets/images/github.jpg";
 
 class GithubCard extends Component {
     render() {
@@ -10,7 +10,7 @@ class GithubCard extends Component {
         <div class="col s12 m6 l4">
           <div class="card large z-depth-5">
             <div class="card-image">
-              <img src={myWebsitePic} class="responsive-img materialboxed" data-caption="My Github profile avatar" alt="My Github profile avatar"/>
+              <img src={githubPic} class="responsive-img materialboxed" data-caption="My Github profile avatar" alt="My Github profile avatar"/>
               <span class="card-title white black-text">Github</span>
             </div>
             <div class="card-content">

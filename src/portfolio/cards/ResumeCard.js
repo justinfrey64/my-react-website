@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "../Portfolio.css"
 
-import resumePic from "../../assets/images/killington.jpg";
-import resumeLink from "../../assets/files/resume-summer-2019.pdf";
+import resumePic from "../../assets/images/resume-2022-img.png";
+import resumeLink from "../../assets/files/resume-2022.pdf";
 
 class ResumeCard extends Component {
     render() {
@@ -20,7 +20,7 @@ class ResumeCard extends Component {
             </div>
             <div class="card-action">
               <a href={resumeLink} class="btn-floating waves-effect waves-light center-align resume-btn"><FontAwesomeIcon icon={['fas', 'file-pdf']}/></a>
-              <label class="right card-label">Last Updated: 7/5/2019</label></div>
+              <label class="right card-label">Last Updated: Spring 2022</label></div>
           </div>
         </div>
       );

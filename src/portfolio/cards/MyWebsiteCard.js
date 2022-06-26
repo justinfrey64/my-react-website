@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "../Portfolio.css"
 
-import myWebsitePic from "../../assets/images/inside-computer-square.jpg";
+import myWebsitePic from "../../assets/images/justinfrey-com.jpg";
 
 class MyWebsiteCard extends Component {
     render() {
@@ -14,7 +14,7 @@ class MyWebsiteCard extends Component {
               <span class="card-title white black-text">My Website</span>
             </div>
             <div class="card-content">
-              <p>Wow you are already here! Thanks for being awesome <FontAwesomeIcon icon={['far', 'thumbs-up']}/>.</p>
+              <p>This is my main website. Made with just HTML, CSS, and Javascript. Check it out!</p>
             </div>
             <div class="card-action">
               <a href="https://justinfrey.com">justinfrey.com</a>
