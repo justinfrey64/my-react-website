@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.12f4ae3d.css",
-    "main.js": "/static/js/main.617aa490.js",
+    "main.js": "/static/js/main.bf0acaaf.js",
     "static/media/laptop-stickers.jpg": "/static/media/laptop-stickers.c70e950a871ea48d0ae4.jpg",
-    "static/media/killington.jpg": "/static/media/killington.36cd76413064787fd90d.jpg",
-    "static/media/resume-summer-2019.pdf": "/static/media/resume-summer-2019.66d7095ff20e3bdc4967.pdf",
+    "static/media/resume-2022.pdf": "/static/media/resume-2022.9e454496c795a90a2f9a.pdf",
+    "static/media/resume-2022-img.png": "/static/media/resume-2022-img.81fd9f02713640ec5dae.png",
     "static/media/old-headshot.png": "/static/media/old-headshot.ebbf6d927334b48a831a.png",
-    "static/media/inside-computer-square.jpg": "/static/media/inside-computer-square.531676642b56b24ecd25.jpg",
+    "static/media/github.jpg": "/static/media/github.742991dba491f4a94f22.jpg",
+    "static/media/justinfrey-dev.jpg": "/static/media/justinfrey-dev.25e4391015f08a9acfa4.jpg",
+    "static/media/HackerRank_logo.jpg": "/static/media/HackerRank_logo.5691d324ac8ab922ed5a.jpg",
+    "static/media/justinfrey-com.jpg": "/static/media/justinfrey-com.222f862a6d1b7c7820c4.jpg",
     "index.html": "/index.html",
     "main.12f4ae3d.css.map": "/static/css/main.12f4ae3d.css.map",
-    "main.617aa490.js.map": "/static/js/main.617aa490.js.map"
+    "main.bf0acaaf.js.map": "/static/js/main.bf0acaaf.js.map"
   },
   "entrypoints": [
     "static/css/main.12f4ae3d.css",
-    "static/js/main.617aa490.js"
+    "static/js/main.bf0acaaf.js"
   ]
 }
