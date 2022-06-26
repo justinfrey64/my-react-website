@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import profilePic from  "../assets/images/old-headshot.png";
+import profilePic from  "../assets/images/headshot.jpg";
 import M from "materialize-css";
 
 class Profile extends Component {
